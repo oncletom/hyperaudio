@@ -17,13 +17,15 @@ module.exports = function(config) {
       'lib/*.js',
       'src/js/*.js',
       'src/js/mapping/*.js',
-      'test/unit/**/*.js'
+      'test/unit/**/*.js',
+
+      { pattern: 'test/fixtures/*.html', included: true }
     ],
 
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
